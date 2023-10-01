@@ -33,6 +33,13 @@ li {
   text-decoration: none;
   color: var(--white-clr);
 }
+.btn {
+  background: var(--black-clr);
+  padding: 12px 10px;
+  border-radius: 5px;
+  color: var(--white-clr);
+  border: 1px solid var(--primary-clr);
+}
 .container {
   width: 95%;
   margin: 0 auto;
@@ -76,6 +83,15 @@ li {
 }
 .main_menu ul li a {
   padding: 20px 10px;
+}
+.header_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header_search button {
+  background: var(--primary-clr);
 }
 .banner_area {
   background: url(../img/banner.png);
